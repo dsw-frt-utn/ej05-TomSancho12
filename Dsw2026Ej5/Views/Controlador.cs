@@ -30,6 +30,6 @@ public class Controlador
                 consumoCombustible += vehiculo.EsDe(VehiculoTipo.Combustible) ? consumo : 0;
             }
         }
-        return (consumoElectricos: 0, consumoCombustible);
+        return (consumoElectricos, consumoCombustible);
     }
 }
